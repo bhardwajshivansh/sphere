@@ -1,4 +1,89 @@
-
+body{
+    background-color: rgb(49, 142, 156);
+}
+a:link{
+    color: aqua;
+    text-decoration: none;
+}
+a:visited{
+    color:aquamarine;
+    text-decoration: none;
+}
 h1{
     color: aquamarine;
+   text-align: center;
+}
+h2{
+    color: aquamarine;
+    text-align: center;
+}
+.first{
+    width: 100%;
+    position :fixed;
+    top:0;
+    left:0;
+    right:0;
+    height: 120px;
+    background-color: black;
+}
+
+.second{
+    background-color: black;
+    height: 110spx;
+    width: 100%;
+    position: fixed;
+    bottom :0;
+    right:0;
+}
+.first .third{
+    background-color: black;
+    position: relative;
+    color: rgb(76, 84, 40);
+    text-align: center;
+    height:81px;
+    width:81px;
+    left:0;
+   top:92px;
+   border-radius:50%;
+}
+.third{
+    background-color: black;
+    position: relative;
+    height:81px;
+    width:81px;
+    left:0;
+    top: 81px;
+    border-radius:50%;
+}
+.info{
+    position: absolute; 
+    width:308px;
+    height: 308px;
+    top:30%;
+    left:40%;
+background-color: black;
+border-radius: 30px;
+}
+.bc{
+    text-align: center;
+    position: relative;
+    left:20%;
+}
+.circle{
+    border-radius: 50%;
+    height:40px;
+    width: 40px;
+    position: relative;
+    left:25%;
+    top:5%;
+    background-color: aquamarine;
+}
+.circle .circle{
+    border-radius: 50%;
+    height:40px;
+    width: 40px;
+    background-color: aquamarine;
+    position: relative;
+    left:50px;
+    top:0%;
 }
